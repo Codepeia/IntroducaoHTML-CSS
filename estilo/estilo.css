@@ -1,0 +1,51 @@
+/*seletor*/
+*{
+    margin:0;
+}
+body{
+    /*propriedades e valores*/
+    background-color: cornsilk;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(211, 226, 225);
+    display: flex;
+    justify-content: space-between;
+}
+.estilo1{
+    width: 100%;
+    height: 100px;
+    background-color: darkblue;
+    border: 5px solid yellow    ;
+}
+#estiloUnico{
+    background-color: violet;
+    height: 100px;
+}
+#img{
+    margin:0.9% 0.9% ;
+}
+#links{
+    width: 44%;
+    display: flex;
+    margin-right: 5%;
+    margin-top:30px;
+  
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
